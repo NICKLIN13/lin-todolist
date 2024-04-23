@@ -6,6 +6,7 @@
   "scripts": {
     "install-client": "cd ./front-end && npm install",
     "install-server": "cd ./server && npm install",
+    "preinstall": "npm run install-client && npm run install-server && npm run build-client",
     "build-client": "cd front-end && npm run build",
     "start-server": "cd ./server && npm start",
     "deploy": "npm run install-client && npm run install-server && npm run build-client && npm run start-server"
