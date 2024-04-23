@@ -11,6 +11,7 @@ app.use(cors());
 const router = require("./routes");
 
 app.use("/api", router)
+app.use(express.static("../front-end/build"));
 
 const port = process.env.PORT || 5001;
 

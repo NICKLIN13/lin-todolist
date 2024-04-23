@@ -1,0 +1,15 @@
+{
+  "name": "todolist-react-tryingbe",
+  "version": "1.0.0",
+  "description": "A simple but powerful To-do list App which is handly and easy to use.",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "cd ./front-end && npm install",
+    "install-server": "cd ./server && npm install",
+    "build-client": "cd front-end && npm run build",
+    "start-server": "cd ./server && npm start",
+    "deploy": "npm run install-client && npm run install-server && npm run build-client && npm run start-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
